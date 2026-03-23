@@ -524,7 +524,7 @@ export default function App() {
         onClick={goBack}
         style={{
           position: "fixed",
-          bottom: "1.5rem",
+          bottom: "0.5rem",
           left: "50%",
           transform: "translateX(-50%)",
           zIndex: 10,
