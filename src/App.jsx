@@ -94,7 +94,7 @@ function CrystallizeScreen({ col, onBubbleTrigger }) {
       timerRef.current = setTimeout(() => {
         setPhase("disintegrate");
         timerRef.current = setTimeout(() => setPhase("poem"), 12000);
-      }, 6000);
+      }, 4000);
     } catch (e) {
       setLoading(false);
       setError("エラーが発生しました。APIキーを確認してください。");
