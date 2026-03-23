@@ -523,11 +523,8 @@ export default function App() {
       <button
         onClick={goBack}
         style={{
-          position: "fixed",
-          bottom: "0.5rem",
-          left: "50%",
-          transform: "translateX(-50%)",
-          zIndex: 10,
+         display: "block",
+margin: "1rem auto 0",
           padding: "0.6rem 1.8rem",
           background: "rgba(20,20,35,0.9)",
           border: `1px solid ${col.glow}66`,
