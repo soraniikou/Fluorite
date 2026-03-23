@@ -1,16 +1,22 @@
-# React + Vite
+　　　    💎fluorit　〜愛と不安〜
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+アプリ体験↓
+https://fluorite310.vercel.app
 
-Currently, two official plugins are available:
+       何かを愛する時に　愛し始めの強烈な思いと
+       失うことへの不安
+       🩵　　💚　　💜
+       好きな色をタップして
+       
+       →矛盾する思いを言葉にして書いてください
+       →結晶化ボタン
+       →短いメッセージ出る
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+       タイムカプセルを押す
+       
+→テキストで気持ちを書き留める
+→🎤マイクで声を録音もできます→録音停止→再生や削除できます　（ご自由に　使用しなくてもオッケー）
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+思いを書き留めた場合→「🫙 瓶に封じ込める」で保存
+→「📦 過去の瓶」で過去の記録を見られる
+🔻タップで開閉
