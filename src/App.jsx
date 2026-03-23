@@ -93,7 +93,7 @@ function CrystallizeScreen({ col, onBubbleTrigger }) {
       setPhase("showing");
       timerRef.current = setTimeout(() => {
         setPhase("disintegrate");
-        timerRef.current = setTimeout(() => setPhase("poem"), 5000);
+        timerRef.current = setTimeout(() => setPhase("poem"), 3000);
       }, 4000);
     } catch (e) {
       setLoading(false);
