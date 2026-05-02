@@ -1,4 +1,4 @@
-　　　    💎fluorit　〜愛と不安〜
+　　　    💎fluorite　〜愛と不安〜
 
 アプリ体験↓
 https://fluorite310.vercel.app
