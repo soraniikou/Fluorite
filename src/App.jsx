@@ -155,6 +155,33 @@ function CrystallizeScreen({ col, onBubbleTrigger }) {
           <p style={{ lineHeight: "2.2", fontSize: "1rem", letterSpacing: "0.08em", color: "#e0e0ee" }}>
             {message}
           </p>
+          <div style={{ marginTop: "1.75rem", marginBottom: "0.5rem", textAlign: "center" }}>
+            <style>{`
+              .fluorite-story-song-link {
+                display: inline-block;
+                font-size: 0.85em;
+                letter-spacing: 0.1em;
+                color: rgba(150, 220, 255, 0.5);
+                text-decoration: none;
+                border-bottom: 1px dashed rgba(150, 220, 255, 0.22);
+                padding-bottom: 0.08em;
+                transition: color 0.35s ease, text-shadow 0.35s ease, border-bottom-color 0.35s ease;
+              }
+              .fluorite-story-song-link:hover {
+                color: rgba(180, 235, 255, 0.85);
+                text-shadow: 0 0 14px ${col.glow}66, 0 0 24px ${col.glow}33;
+                border-bottom-color: ${col.glow}55;
+              }
+            `}</style>
+            <a
+              href="https://stand.fm/episodes/69f34acdf911976097785df2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fluorite-story-song-link"
+            >
+              🎵 この物語の歌を聴く
+            </a>
+          </div>
           <button onClick={() => { onBubbleTrigger?.(); setPhase("idle"); setLight(""); setShadow(""); setMessage(""); }}
             style={{ marginTop: "2rem", padding: "0.5rem 1.5rem", background: "transparent",
               border: "1px solid #444", color: "#666", borderRadius: "2rem", cursor: "pointer", fontSize: "0.8rem" }}>
